@@ -1,0 +1,64 @@
+@font-face {
+  src: url(fonts/mukti/Mukti-Book.ttf);
+font-family: 'Mukti';
+}
+#header h1 {
+  font-family: 'Mukti', sans-serif;
+}
+#header ~ div {
+  margin-top: 80px;
+}
+.player-info {
+  border: 1px solid green;
+  background: #CCB29C;
+  width: 400px;
+}
+
+img {
+    width: auto;
+    height:200px;
+  }
+  div.player-info {
+    border: 1px solid green;
+    padding: 15px;
+    height: 250px;
+    width: 400px;
+    background: rgb(43,79,106);
+    color: white;
+    border-radius: 0px 10px 10px 10px;
+    transition: all 500ms linear 1s;
+  }
+.player-info:hover {
+  background: rgba(43,79,106, .7);
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 2px 2px 5px #777;
+}
+#voting-form h2 {
+text-shadow: 2px 2px 5px #888;
+}
+#Neimar img:hover, #Ronaldo img:hover {
+  transform: scale(1.5);
+  transition: all 500ms;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: black;
+}
+h2, h3{
+  font-family: Arial, sans-serif;
+}
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-family: 'Roboto Slab', serif;
+  }
+  .highlight {
+    background: #000;
+    color: #fff;
+  }
